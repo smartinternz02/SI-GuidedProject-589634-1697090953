@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gold Price Prediction</title>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+  </head>
+  <body>
+    <!-- {% if input == 0 %}
+    <script>
+        alert("Please Add News title Headline and try to submit");
+    </script>
+    {% endif %} -->
+    <header>
+      <h1>Gold Price Prediction</h1>
+    </header>
+    <main>
+      <form action="/" method="POST" onsubmit="return submitForm(this)">  
+        <label for="text">Add News title Headline:</label>
+        <input type="text" id="text" name="newheadline">
+        <br><br>
+        <button type="submit" value="Predict">Submit</button>
+      </form>
+      <br><br>
+      <div id="output">
+        <p>The predicted gold price is:{{output}}</p>
+      </div>
+    </main>
+    
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+    <script>
+        function submitForm(form) {
+            swal("{{output}}");
+        
+    }
+    </script>
+    
+
+  </body>
+</html>
