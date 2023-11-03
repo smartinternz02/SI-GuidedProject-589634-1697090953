@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  header {
+    background-color: #f7c627;
+    color: white;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  main {
+    padding: 1em;
+  }
+  
+  form {
+    text-align: center;
+  }
+  
+  label, input[type="submit"] {
+    font-size: 1.2em;
+  }
+  
+  input[type="text"] {
+    font-size: 1.2em;
+    padding: 0.5em;
+    width: 20em;
+  }
+  
+  #output {
+    background-color: #e6e6e6;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  #price {
+    color: #333;
+    font-size: 1.5em;
+  }
+  
